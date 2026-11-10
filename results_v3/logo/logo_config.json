@@ -1,0 +1,18 @@
+{
+ "seed": 0,
+ "generators": [
+  "BigGAN",
+  "Gansformer",
+  "GigaGAN",
+  "LFM",
+  "ProjectedGAN",
+  "StyleGAN2",
+  "StyleGAN3",
+  "StyleGANXL",
+  "StyleSANXL",
+  "VQDiffusion",
+  "glide",
+  "tamingTransformers"
+ ],
+ "minutes": 87.15569423437118
+}

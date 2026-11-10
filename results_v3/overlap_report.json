@@ -1,0 +1,42 @@
+{
+ "cf_real": 1500,
+ "coco_real": 1000,
+ "cf_coco_pairs_hamming_le8": 1,
+ "cf_coco_pairs_hamming_le4": 0,
+ "cf_coco_pairs_hamming_0": 0,
+ "cf_coco_pairs_cosine_ge095": 0,
+ "cf_coco_pairs_cosine_ge090": 71,
+ "cf_coco_max_cosine": 0.9441332817077637,
+ "cf_coco_min_hamming": 7,
+ "cf_coco_pairs_both_hamming_le8_and_cosine_ge090": 0,
+ "cf_coco_hamming_le8_by_cf_split": {
+  "train": 1
+ },
+ "cf_coco_hamming_le8_pairs": [
+  {
+   "cf": "cf_000402",
+   "cf_split": "train",
+   "coco": "own_000673",
+   "hamming": 7,
+   "cosine": 0.615
+  }
+ ],
+ "cf_same_group_pairs_cosine_ge95": 262,
+ "cf_same_group_pairs_cosine_ge95_cross_split": 26,
+ "cf_cross_split_cosine_ge95_by_group": {
+  "StyleGAN3": 25,
+  "BigGAN": 1
+ },
+ "cf_same_group_pairs_cosine_ge97": 105,
+ "cf_same_group_pairs_cosine_ge97_cross_split": 5,
+ "cf_cross_split_cosine_ge97_by_group": {
+  "StyleGAN3": 5
+ },
+ "cf_same_group_cosine_ge95_pairs_in_different_dhash_clusters": 64,
+ "context": {
+  "i2i_vs_source_cosine_median": 0.7866059839725494,
+  "i2i_vs_source_cosine_p10": 0.6349194645881653,
+  "random_coco_pairs_cosine_median": 0.5093026161193848,
+  "random_coco_pairs_cosine_p99": 0.7144476175308228
+ }
+}

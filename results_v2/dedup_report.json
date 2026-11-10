@@ -1,0 +1,45 @@
+{
+ "hash_threshold": 8,
+ "cf_images": 3000,
+ "cf_clusters": 2898,
+ "cf_images_in_multi_clusters": 118,
+ "largest_cluster": 60,
+ "exact_duplicate_pairs": 4,
+ "near_duplicate_pairs_cf_any_group": 792,
+ "near_duplicate_pairs_cf_same_group": 662,
+ "near_duplicate_pairs_own": 69,
+ "near_duplicate_pairs_cf_own": 18,
+ "v1_cross_split_near_duplicate_pairs": 432,
+ "v1_cross_split_near_duplicate_pairs_same_group": 313,
+ "multi_cluster_images_by_group": {
+  "Gansformer": 7,
+  "StyleGAN2": 70,
+  "StyleGAN3": 35,
+  "real:": 6
+ },
+ "v2_cross_split_near_duplicate_pairs": 118,
+ "v2_cross_split_near_duplicate_pairs_same_group": 0,
+ "images_moved_between_splits": 1237,
+ "split_counts_v2": {
+  "test_own": {
+   "fake": 1000,
+   "real": 1000
+  },
+  "test_seen": {
+   "fake": 169,
+   "real": 225
+  },
+  "test_unseen": {
+   "fake": 375,
+   "real": 0
+  },
+  "train": {
+   "fake": 786,
+   "real": 1050
+  },
+  "val": {
+   "fake": 170,
+   "real": 225
+  }
+ }
+}
