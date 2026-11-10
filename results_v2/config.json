@@ -1,33 +1,33 @@
 {
-  "ROOT": "dataset",
-  "RES": "results_v2",
-  "SEEDS": [
-    0,
-    1,
-    2
-  ],
-  "SPLIT_SEED": 42,
-  "HASH_THR": 8,
-  "IMG": 224,
-  "BS": 32,
-  "WORKERS": 2,
-  "EPOCHS_CNN": 10,
-  "LR_CNN": 0.001,
-  "EPOCHS_RESNET": 5,
-  "LR_RESNET": 0.0001,
-  "CLIP_ID": "openai/clip-vit-large-patch14",
-  "N_BOOT": 1000,
-  "N_CAL": 200,
-  "N_CAL_REPEATS": 20,
-  "device": "mps",
-  "clip_C": 0.1,
-  "clip_val_auc_by_C": {
-    "0.01": 0.9978039215686275,
-    "0.1": 0.9978562091503268,
-    "1.0": 0.9978300653594772,
-    "10.0": 0.9966274509803922
-  },
-  "torch": "2.12.0",
-  "cpu": "arm64",
-  "total_minutes": 42.588172519207
+ "ROOT": "dataset",
+ "RES": "/Users/adema/Downloads/results_v2",
+ "SEEDS": [
+  0,
+  1,
+  2
+ ],
+ "SPLIT_SEED": 42,
+ "HASH_THR": 8,
+ "IMG": 224,
+ "BS": 32,
+ "WORKERS": 2,
+ "EPOCHS_CNN": 10,
+ "LR_CNN": 0.001,
+ "EPOCHS_RESNET": 5,
+ "LR_RESNET": 0.0001,
+ "CLIP_ID": "openai/clip-vit-large-patch14",
+ "N_BOOT": 1000,
+ "N_CAL": 200,
+ "N_CAL_REPEATS": 20,
+ "device": "mps",
+ "clip_C": 0.1,
+ "clip_val_auc_by_C": {
+  "0.01": 0.9978039215686275,
+  "0.1": 0.9978562091503268,
+  "1.0": 0.9978300653594772,
+  "10.0": 0.9966274509803922
+ },
+ "torch": "2.12.0",
+ "cpu": "arm64",
+ "total_minutes": 42.588172519207
 }

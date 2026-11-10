@@ -1,41 +1,41 @@
 {
-  "ROOT": "dataset",
-  "RES": "results_v3",
-  "SEEDS": [
-    0,
-    1,
-    2,
-    3,
-    4
-  ],
-  "SPLIT_SEED": 42,
-  "HASH_THR": 8,
-  "COS_THR": 0.95,
-  "IMG": 224,
-  "BS": 32,
-  "WORKERS": 2,
-  "EPOCHS_CNN": 10,
-  "LR_CNN": 0.001,
-  "EPOCHS_RESNET": 5,
-  "LR_RESNET": 0.0001,
-  "CLIP_ID": "openai/clip-vit-large-patch14",
-  "N_BOOT": 1000,
-  "N_CAL": 200,
-  "N_CAL_REPEATS": 20,
-  "bootstrap_units": {
-    "test_seen": 385,
-    "test_unseen": 595,
-    "test_own": 1000
-  },
-  "device": "mps",
-  "clip_C": 0.1,
-  "clip_val_auc_by_C": {
-    "0.01": 0.9979207277452892,
-    "0.1": 0.9981026640675763,
-    "1.0": 0.9978947368421053,
-    "10.0": 0.9965172189733593
-  },
-  "torch": "2.12.0",
-  "cpu": "arm64",
-  "total_minutes": 93.44123179912567
+ "ROOT": "dataset",
+ "RES": "/Users/adema/Downloads/results_v3",
+ "SEEDS": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "SPLIT_SEED": 42,
+ "HASH_THR": 8,
+ "COS_THR": 0.95,
+ "IMG": 224,
+ "BS": 32,
+ "WORKERS": 2,
+ "EPOCHS_CNN": 10,
+ "LR_CNN": 0.001,
+ "EPOCHS_RESNET": 5,
+ "LR_RESNET": 0.0001,
+ "CLIP_ID": "openai/clip-vit-large-patch14",
+ "N_BOOT": 1000,
+ "N_CAL": 200,
+ "N_CAL_REPEATS": 20,
+ "bootstrap_units": {
+  "test_seen": 385,
+  "test_unseen": 595,
+  "test_own": 1000
+ },
+ "device": "mps",
+ "clip_C": 0.1,
+ "clip_val_auc_by_C": {
+  "0.01": 0.9979207277452892,
+  "0.1": 0.9981026640675763,
+  "1.0": 0.9978947368421053,
+  "10.0": 0.9965172189733593
+ },
+ "torch": "2.12.0",
+ "cpu": "arm64",
+ "total_minutes": 93.44123179912567
 }
